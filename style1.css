@@ -1,0 +1,51 @@
+* {
+	padding: 0%;
+	margin: 0%;
+}
+
+header {
+	background-color: darkslategrey;
+	height: 78px;
+}
+header nav ul {
+	list-style-type: none;
+	float: right;
+}
+header nav ul li {
+	display: inline-block;
+	padding: 30px;
+}
+
+header nav ul li:hover {
+	background-color: darkolivegreen;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+header nav img {
+	padding-left: 10px;
+}
+.banner{
+	background-color: darkred;
+	height: 500px;
+}
+.banner h1,.banner1 h1{color: #fff;text-align: center;padding: 100px;font-size: 80px;}
+.banner h1:hover{color: dimgrey;}
+.banner1{
+	background-image: url(3201.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+}
+
+
+
+
+
+
+
+

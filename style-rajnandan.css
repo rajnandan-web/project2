@@ -1,0 +1,85 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    background-color: dimgrey;
+    height: 58px;
+}
+
+.header > nav > ul {
+    list-style-type: none;
+    float: right;
+}
+
+.header > nav > ul > li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.header > nav > ul > li:hover {
+    background-color: dodgerblue;
+}
+
+.header > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.header > nav > img {
+    height: 58px;
+}
+/*Banner Code 1*/
+.banner{
+    background-color: darksalmon;
+    height: 500px;
+}
+.banner>h1, .bannerImage>h1,.bannerLinearGradient>h1,.bannerLinearGradientImage>h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+/*    padding-top: 200px;*/
+}
+.banner>h1:hover,.bannerImage>h1:hover,.bannerLinearGradient>h1:hover,.bannerLinearGradientImage>h1:hover{
+    color: dodgerblue;
+    text-shadow: 2px 2px black;
+}
+/*Banner Code 2*/
+.bannerImage{
+    background-image: url(../images/banner1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.bannerLinearGradient
+{
+    background: linear-gradient(to right,#ffa603,#ffffff,#048204);
+    height: 500px;
+}
+.bannerLinearGradientImage
+{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/banner.jpeg)center no-repeat;
+    height: 500px;
+    background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+/*Mobile Version*/
+@media(max-width:768px)
+{
+    .banner{
+        background-color: dimgrey;
+        height: auto;
+        text-align: center;
+    }
+    .banner>nav>ul>li{
+        display: block;
+    }
+    .banner>nav>ul{
+        float: none;
+    }
+}
+
+/*Tab Version Code*/
+@media(min-width:769px) and (max-width:1024px){
+    .banner{
+        background-color: dodgerblue;
+        text-align: center;
+    }
+    .banner>nav>ul{
+        float: none;
+    }
+}

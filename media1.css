@@ -1,0 +1,50 @@
+/*
+@media(max-width:768px){
+	header{
+		background-color: deeppink;
+		height: auto;
+	}
+	header nav ul{
+		float: none;
+	}
+	header nav ul li{
+		display: block;
+	}
+	header nav{
+		text-align: center;
+	}
+}
+*/
+
+
+
+/*
+@media(min-width:769px) and (max-width:1024px){
+	header{
+		background-color: dodgerblue;
+	}
+	header img{width: 30px;}
+	header nav ul{float:right;}
+	header nav{text-align: center;}
+}
+
+*/
+
+@media(max-width:768px){
+	header{
+		background-color: pink;
+		height: auto;
+	}
+	header nav ul{
+		float: none;
+	}
+	header nav ul li{
+		display: block;
+	}
+	header nav{
+		text-align: center;
+	}
+	.banner{
+		background-color: darkviolet;
+	}
+}
